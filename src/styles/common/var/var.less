@@ -1,0 +1,238 @@
+// 项目类名默认前缀
+@namespace: khfw;
+
+// 默认主题色-色阶
+@primary-color-1: var(--tj-primary-color-1, #f0faff);
+@primary-color-2: var(--tj-primary-color-2, #d6f0ff);
+@primary-color-3: var(--tj-primary-color-3, #addeff);
+@primary-color-4: var(--tj-primary-color-4, #85caff);
+@primary-color-5: var(--tj-primary-color-5, #3296fa);
+@primary-color-6: var(--tj-primary-color-6, #2074d4);
+@primary-color-7: var(--tj-primary-color-7, #1155ad);
+@primary-color-8: var(--tj-primary-color-8, #073a87);
+@primary-color-9: var(--tj-primary-color-9, #042661);
+
+@primary-color: var(--tj-primary-color);
+@primary-color-hover: var(--tj-brand-color-hover);
+@primary-color-focus: var(--tj-brand-color-focus);
+@primary-color-active: var(--tj-brand-color-active);
+@primary-color-disabled: var(--tj-brand-color-disabled);
+@primary-color-light: var(--tj-brand-color-light);
+
+// 主题色透明度色值
+@_var_primary-color-opacity-1: rgba(50, 150, 250, 0.1);
+@_var_primary-color-opacity-2: rgba(50, 150, 250, 0.2);
+@_var_primary-color-opacity-3: rgba(50, 150, 250, 0.3);
+@_var_primary-color-opacity-4: rgba(50, 150, 250, 0.4);
+@_var_primary-color-opacity-5: rgba(50, 150, 250, 0.5);
+@_var_primary-color-opacity-6: rgba(50, 150, 250, 0.6);
+@_var_primary-color-opacity-7: rgba(50, 150, 250, 0.7);
+@_var_primary-color-opacity-8: rgba(50, 150, 250, 0.8);
+@_var_primary-color-opacity-9: rgba(50, 150, 250, 0.9);
+@primary-color-opacity-1: var(--primary-color-opacity-1);
+@primary-color-opacity-2: var(--primary-color-opacity-2);
+@primary-color-opacity-3: var(--primary-color-opacity-3);
+@primary-color-opacity-4: var(--primary-color-opacity-4);
+@primary-color-opacity-5: var(--primary-color-opacity-5);
+@primary-color-opacity-6: var(--primary-color-opacity-6);
+@primary-color-opacity-7: var(--primary-color-opacity-7);
+@primary-color-opacity-8: var(--primary-color-opacity-8);
+@primary-color-opacity-9: var(--primary-color-opacity-9);
+
+// 功能色-错误
+@error-color-1: var(--tj-error-color-1);
+@error-color-2: var(--tj-error-color-2);
+@error-color-3: var(--tj-error-color-3);
+@error-color-4: var(--tj-error-color-4);
+@error-color-5: var(--tj-error-color-5);
+@error-color-6: var(--tj-error-color-6);
+@error-color-7: var(--tj-error-color-7);
+@error-color-8: var(--tj-error-color-8);
+@error-color-9: var(--tj-error-color-9);
+@error-color-10: var(--tj-error-color-10);
+
+@error-color: var(--tj-error-color);
+@error-color-hover: var(--tj-error-color-hover);
+@error-color-focus: var(--tj-error-color-focus);
+@error-color-active: var(--tj-error-color-active);
+@error-color-disabled: var(--tj-error-color-disabled);
+@error-color-light: var(--tj-error-color-light);
+
+@_var_error-color-opacity-1: rgba(255, 82, 82, 0.1);
+@_var_error-color-opacity-2: rgba(255, 82, 82, 0.2);
+@_var_error-color-opacity-3: rgba(255, 82, 82, 0.3);
+@_var_error-color-opacity-4: rgba(255, 82, 82, 0.4);
+@_var_error-color-opacity-5: rgba(255, 82, 82, 0.5);
+@_var_error-color-opacity-6: rgba(255, 82, 82, 0.6);
+@_var_error-color-opacity-7: rgba(255, 82, 82, 0.7);
+@_var_error-color-opacity-8: rgba(255, 82, 82, 0.8);
+@_var_error-color-opacity-9: rgba(255, 82, 82, 0.9);
+
+@error-color-opacity-1: var(--error-color-opacity-1);
+@error-color-opacity-2: var(--error-color-opacity-2);
+@error-color-opacity-3: var(--error-color-opacity-3);
+@error-color-opacity-4: var(--error-color-opacity-4);
+@error-color-opacity-5: var(--error-color-opacity-5);
+@error-color-opacity-6: var(--error-color-opacity-6);
+@error-color-opacity-7: var(--error-color-opacity-7);
+@error-color-opacity-8: var(--error-color-opacity-8);
+@error-color-opacity-9: var(--error-color-opacity-9);
+
+// 功能色-警告
+@warning-color-1: var(--tj-warning-color-1);
+@warning-color-2: var(--tj-warning-color-2);
+@warning-color-3: var(--tj-warning-color-3);
+@warning-color-4: var(--tj-warning-color-4);
+@warning-color-5: var(--tj-warning-color-5);
+@warning-color-6: var(--tj-warning-color-6);
+@warning-color-7: var(--tj-warning-color-7);
+@warning-color-8: var(--tj-warning-color-8);
+@warning-color-9: var(--tj-warning-color-9);
+@warning-color-10: var(--tj-warning-color-10);
+
+@warning-color: var(--tj-warning-color);
+@warning-color-hover: var(--tj-warning-color-hover);
+@warning-color-focus: var(--tj-warning-color-focus);
+@warning-color-active: var(--tj-warning-color-active);
+@warning-color-disabled: var(--tj-warning-color-disabled);
+@warning-color-light: var(--tj-warning-color-light);
+
+@_var_warning-color-opacity-1: rgba(255, 154, 4, 0.1);
+@_var_warning-color-opacity-2: rgba(255, 154, 4, 0.2);
+@_var_warning-color-opacity-3: rgba(255, 154, 4, 0.3);
+@_var_warning-color-opacity-4: rgba(255, 154, 4, 0.4);
+@_var_warning-color-opacity-5: rgba(255, 154, 4, 0.5);
+@_var_warning-color-opacity-6: rgba(255, 154, 4, 0.6);
+@_var_warning-color-opacity-7: rgba(255, 154, 4, 0.7);
+@_var_warning-color-opacity-8: rgba(255, 154, 4, 0.8);
+@_var_warning-color-opacity-9: rgba(255, 154, 4, 0.9);
+
+@warning-color-opacity-1: var(--warning-color-opacity-1);
+@warning-color-opacity-2: var(--warning-color-opacity-2);
+@warning-color-opacity-3: var(--warning-color-opacity-3);
+@warning-color-opacity-4: var(--warning-color-opacity-4);
+@warning-color-opacity-5: var(--warning-color-opacity-5);
+@warning-color-opacity-6: var(--warning-color-opacity-6);
+@warning-color-opacity-7: var(--warning-color-opacity-7);
+@warning-color-opacity-8: var(--warning-color-opacity-8);
+@warning-color-opacity-9: var(--warning-color-opacity-9);
+
+// 功能色-成功
+@success-color-1: var(--tj-success-color-1);
+@success-color-2: var(--tj-success-color-2);
+@success-color-3: var(--tj-success-color-3);
+@success-color-4: var(--tj-success-color-4);
+@success-color-5: var(--tj-success-color-5);
+@success-color-6: var(--tj-success-color-6);
+@success-color-7: var(--tj-success-color-7);
+@success-color-8: var(--tj-success-color-8);
+@success-color-9: var(--tj-success-color-9);
+@success-color-10: var(--tj-success-color-10);
+
+@success-color: var(--tj-success-color);
+@success-color-hover: var(--tj-success-color-hover);
+@success-color-focus: var(--tj-success-color-focus);
+@success-color-active: var(--tj-success-color-active);
+@success-color-disabled: var(--tj-success-color-disabled);
+@success-color-light: var(--tj-success-color-light);
+
+@_var_success-color-opacity-1: rgba(52, 176, 124, 0.1);
+@_var_success-color-opacity-2: rgba(52, 176, 124, 0.2);
+@_var_success-color-opacity-3: rgba(52, 176, 124, 0.3);
+@_var_success-color-opacity-4: rgba(52, 176, 124, 0.4);
+@_var_success-color-opacity-5: rgba(52, 176, 124, 0.5);
+@_var_success-color-opacity-6: rgba(52, 176, 124, 0.6);
+@_var_success-color-opacity-7: rgba(52, 176, 124, 0.7);
+@_var_success-color-opacity-8: rgba(52, 176, 124, 0.8);
+@_var_success-color-opacity-9: rgba(52, 176, 124, 0.9);
+
+@success-color-opacity-1: var(--success-color-opacity-1);
+@success-color-opacity-2: var(--success-color-opacity-2);
+@success-color-opacity-3: var(--success-color-opacity-3);
+@success-color-opacity-4: var(--success-color-opacity-4);
+@success-color-opacity-5: var(--success-color-opacity-5);
+@success-color-opacity-6: var(--success-color-opacity-6);
+@success-color-opacity-7: var(--success-color-opacity-7);
+@success-color-opacity-8: var(--success-color-opacity-8);
+@success-color-opacity-9: var(--success-color-opacity-9);
+
+// 系统色-蓝色
+@blue-color: #3296fa;
+
+@gray-color-1: var(--tj-gray-color-1);
+@gray-color-2: var(--tj-gray-color-2);
+@gray-color-3: var(--tj-gray-color-3);
+@gray-color-4: var(--tj-gray-color-4);
+@gray-color-5: var(--tj-gray-color-5);
+@gray-color-6: var(--tj-gray-color-6);
+@gray-color-7: var(--tj-gray-color-7);
+@gray-color-8: var(--tj-gray-color-8);
+@gray-color-9: var(--tj-gray-color-9);
+@gray-color-10: var(--tj-gray-color-10);
+
+/* 文字色阶 start */
+@_var_black-color-5: #171a1d;
+@black-color-5: var(--black-color-5);
+
+@_var_black-color-4: rgba(0, 0, 0, 0.8);
+@black-color-4: var(--black-color-4);
+
+@_var_black-color-3: rgba(0, 0, 0, 0.6);
+@black-color-3: var(--black-color-3);
+
+@_var_black-color-2: rgba(0, 0, 0, 0.4);
+@black-color-2: var(--black-color-2);
+
+@_var_black-color-1: rgba(0, 0, 0, 0.2);
+@black-color-1: var(--black-color-1);
+/* 文字色阶 end */
+
+/* 文字大小及行高 start */
+@_var_text-xs: 12px;
+@_var_text-xs-lh: 20px;
+@text-xs: var(--text-xs);
+@text-xs-lh: var(--text-xs-lh);
+
+@_var_text-sm: 14px;
+@_var_text-sm-lh: 22px;
+@text-sm: var(--text-sm);
+@text-sm-lh: var(--text-sm-lh);
+
+@_var_text-base: 16px;
+@_var_text-base-lh: 24px;
+@text-base: var(--text-base);
+@text-base-lh: var(--text-base-lh);
+
+@_var_text-lg: 18px;
+@_var_text-lg-lh: 26px;
+@text-lg: var(--text-lg);
+@text-lg-lh: var(--text-lg-lh);
+
+@_var_text-xl: 20px;
+@_var_text-xl-lh: 28px;
+@text-xl: var(--text-xl);
+@text-xl-lh: var(--text-xl-lh);
+
+@_var_text-2xl: 24px;
+@_var_text-2xl-lh: 32px;
+@text-2xl: var(--text-2xl);
+@text-2xl-lh: var(--text-2xl-lh);
+/* 文字大小及行高 end */
+
+/* 圆角 start */
+@_var_radius-large: 24px;
+@radius-large: var(--radius-large);
+@_var_radius-middle: 10px;
+@radius-middle: var(--radius-middle);
+@_var_radius-small: 4px;
+@radius-small: var(--radius-small);
+
+@_var_rounded-large: 24px;
+@rounded-large: var(--rounded-large);
+@_var_rounded-middle: 10px;
+@rounded-middle: var(--rounded-middle);
+@_var_rounded-small: 4px;
+@rounded-small: var(--rounded-small);
+/* 圆角 end */
+
+// https://blog.csdn.net/weixin_41854372/article/details/127429577

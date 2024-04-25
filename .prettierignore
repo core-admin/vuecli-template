@@ -1,0 +1,16 @@
+.local
+.output.js
+.husky
+.idea
+tsconfig.tsbuildinfo
+
+**/*.svg
+**/*.sh
+
+/public/**
+/node_modules/**
+/dist/**
+/docs/**
+/bin/**
+/src/lib/**
+/micro-apps/**
